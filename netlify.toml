@@ -1,0 +1,6 @@
+[build]
+  functions = "netlify/functions"
+  publish = "."
+
+[context.production.environment]
+  DEEPSEEK_API_KEY = "<在 Netlify 控制台添加你的 Key>"

@@ -1,0 +1,8 @@
+{
+  "name": "voice-translate-netlify-deepseek",
+  "version": "1.0.0",
+  "main": "netlify/functions/translate.js",
+  "scripts": { "start": "netlify dev" },
+  "dependencies": { "axios": "^1.6.0" },
+  "engines": { "node": "18.x" }
+}
